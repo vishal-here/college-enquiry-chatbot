@@ -1,0 +1,1136 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "hii", "good day", "Greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {
+    "tag": "name",
+    "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you"],
+    "responses": ["You can call me NITRobot", "I'm NITRobot", "I'm NITRobot your virtual assistant"]
+  },
+  {
+    "tag": "college-name",
+    "patterns": ["what is name of the college?", "college-name", "what's name of your college?", "name of college?"],
+    "responses": ["NIT SIKKIM", "college name is NIT SIKKIM", "you are contacting with NIT SIKKIM"]
+  },
+  {
+    "tag": "courses",
+    "patterns": ["what courses are available", "courses offered at college", "how many courses are there in this college"],
+    "responses": ["NIT SIKKIM offers a variety of courses in the fields of BTech, MTech, Phd. "]
+  },
+  {
+    "tag": "courseDuration",
+    "patterns": ["how long will be BIT or BBA course", "how long will it take to complete BTech and Mtech course"],
+    "responses": ["Our college offers a 3-year BIT course and a 3.5-year BBA course at NIT SIKKIM."]
+  },
+  {
+    "tag": "Location",
+    "patterns": ["location", "where is it located", "what is the location of the college"],
+    "responses": ["The National Institute of Technology Sikkim (NIT Sikkim) is a public engineering and research institution located in Ravangla, a tourist town in the South Sikkim district of Sikkim, India"]
+  },
+  {
+    "tag": "semesters",
+    "patterns": ["how many semesters are there in a year", "how many semesters one should study in a year"],
+    "responses": ["NIT SIKKIM follows a two-semester system in a year."]
+  },
+  {
+    "tag": "semDuration",
+    "patterns": ["how many months are there in a semester", "how long will be a single semester"],
+    "responses": ["Each semester at NIT SIKKIM lasts approximately 4 months."]
+  },
+  {
+    "tag": "studentRequirements",
+    "patterns": ["what are the student requirements for admission", "entry requirements", "admission requirements"],
+    "responses": ["For admission to NIT SIKKIM, we require certain academic qualifications and English proficiency. For detailed requirements, please visit our official website or contact our admissions office."]
+  },
+  {
+    "tag": "classes",
+    "patterns": ["how many classes will be there in a day", "how long are the classes?"],
+    "responses": ["At NIT SIKKIM, there may be two or three classes per day, and each class typically lasts for 1 hour and 30 minutes."]
+  },
+  {
+    "tag": "teachingStyle",
+    "patterns": ["what is the teaching style of this college?", "Is the teaching pattern different from other colleges?", "what is the teaching format?"],
+    "responses": ["NIT SIKKIM adopts a British teaching methodology, following the LTW techniques, which stands for Lecture, Tutorial, and Workshop. If you need more details, please provide your contact information, and our counselors will reach out to you."]
+  },
+  {
+    "tag": "exams",
+    "patterns": ["what are the exams like?", "What is the exam pattern"],
+    "responses": ["NIT SIKKIM emphasizes assignments that carry more weight than written exams. Assignments have deadlines, which you should not exceed to achieve better grades."]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["what are your hours", "when are you guys open", "what are your hours of operation"],
+    "responses": ["You can message us at any time, but NIT SIKKIM's college premises are open from 7:00 am to 5:00 pm only."]
+  },
+  {
+    "tag": "funActivities",
+    "patterns": ["will there be any extracurricular activities?", "does the college conduct any fun programs"],
+    "responses": ["Yes, NIT SIKKIM not only provides excellent education but also encourages students to participate in various extracurricular activities. The college organizes annual events like a sports meet, carnival, Holi festival, and Christmas celebrations. Additionally, we have sports facilities like a basketball court, badminton court, table tennis, chess, carrom board, and other refreshment zones."]
+  },
+  {
+    "tag": "facilities",
+    "patterns": ["what facilities are provided by the college?", "what are the facilities of the college for students", "what are the college infrastructures"],
+    "responses": ["In addition to excellent educational facilities, NIT SIKKIM provides various amenities, including 24-hour internet access, air-conditioned classrooms, discussion rooms, a canteen, parking space, and student services to address any student queries."]
+  },
+  {
+    "tag": "fee",
+    "patterns": ["how much is the college fee", "what is the fee structure"],
+    "responses": ["For the BIT course at NIT SIKKIM, the admission fee is RS 96,000, and each semester fee is RS 69,000. The total fee for the program is RS 810,000. For the BBA course, the admission fee is RS 96,000, and each semester fee is RS 52,000. The total fee for the BBA program is RS 810,000."]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye"]
+  },
+  {
+    "tag": "invalid",
+    "patterns": ["", "gvsd", "asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {
+    "tag": "admissionDeadline",
+    "patterns": ["When is the admission deadline for NIT SIKKIM?", "What is the last date to apply for admission at NIT SIKKIM?", "Admission closing date for NIT SIKKIM"],
+    "responses": ["The admission deadline for NIT SIKKIM for the upcoming semester is 20-05-2024. Be sure to complete your application before that date."]
+  },
+  {
+    "tag": "scholarships",
+    "patterns": ["Are there any scholarships available at NIT SIKKIM?", "How can I apply for a scholarship at NIT SIKKIM?", "Scholarship opportunities at NIT SIKKIM"],
+    "responses": ["Yes, NIT SIKKIM offers various scholarships based on academic performance and need. You can find more information on our website or contact our admissions office for details."]
+  },
+  {
+    "tag": "accommodation",
+    "patterns": ["Is on-campus accommodation available at NIT SIKKIM?", "Where can I stay near NIT SIKKIM?", "Housing options at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM provides on-campus accommodation facilities for our students. If you prefer off-campus housing, we can provide information on nearby options as well."]
+  },
+  {
+    "tag": "faculty",
+    "patterns": ["Tell me about the faculty members at NIT SIKKIM", "Who are the professors at NIT SIKKIM?", "Faculty information at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM boasts a highly qualified and experienced faculty. We have experts in various fields who are dedicated to providing quality education to our students."]
+  },
+  {
+    "tag": "careerServices",
+    "patterns": ["Do you offer career services at NIT SIKKIM?", "How do you help with job placement at NIT SIKKIM?", "Career guidance at NIT SIKKIM"],
+    "responses": ["Yes, NIT SIKKIM has a dedicated career services department that assists students with job placement, internships, and career counseling. We prepare our students for a successful future."]
+  },
+  {
+    "tag": "extracurriculars",
+    "patterns": ["Tell me about extracurricular activities at NIT SIKKIM", "What clubs and organizations are available at NIT SIKKIM?", "Extracurricular opportunities at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM offers a variety of student clubs and organizations, including sports, cultural, and academic clubs. You can join these clubs to enrich your college experience.  For more info: visit :https://nitsikkim.ac.in/student/clubs/clubs.php"]
+  },
+  {
+    "tag": "library",
+    "patterns": ["What are the library hours at NIT SIKKIM?", "How can I access the library at NIT SIKKIM?", "Library services at NIT SIKKIM"],
+    "responses": ["The library at NIT SIKKIM is open [insert hours]. You can access it to study, borrow books, and access research materials to support your studies."]
+  },
+  {
+    "tag": "sportsFacilities",
+    "patterns": ["Tell me about the sports facilities at NIT SIKKIM", "What sports can I play at NIT SIKKIM?", "Gym and sports at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM has state-of-the-art sports facilities, including a gym, basketball court, and more. You can participate in various sports and stay active."]
+  },
+  {
+    "tag": "alumniNetwork",
+    "patterns": ["Do you have an alumni network at NIT SIKKIM?", "How can I connect with alumni at NIT SIKKIM?", "Alumni association at NIT SIKKIM"],
+    "responses": ["Yes, NIT SIKKIM has a strong alumni network. You can connect with alumni for mentorship and networking opportunities to enhance your career prospects."]
+  },
+  {
+    "tag": "itSubjects",
+    "patterns": ["Tell me about IT subjects at NIT SIKKIM", "Subjects in the IT program at NIT SIKKIM", "IT department courses at NIT SIKKIM"],
+    "responses": ["In our IT program at NIT SIKKIM, you will study subjects like:\n1. Programming and Algorithms\n2. Database Management\n3. Web Development\n4. Networking\n5. Cybersecurity\n6. Artificial Intelligence\n7. Software Engineering, and more."]
+  },
+
+  {
+    "tag": "englishSubjects",
+    "patterns": ["Tell me about English courses at NIT SIKKIM", "Subjects in the English program at NIT SIKKIM", "English department curriculum at NIT SIKKIM"],
+    "responses": ["The English program at NIT SIKKIM covers various literature and language courses, including:\n1. English Literature\n2. Creative Writing\n3. Linguistics\n4. Poetry and Prose\n5. Shakespearean Studies\n6. English Grammar\n7. Communication Skills, and more."]
+  },
+  {
+    "tag": "mathSubjects",
+    "patterns": ["What math courses are available at NIT SIKKIM?", "Subjects in the Mathematics program at NIT SIKKIM", "Math department curriculum at NIT SIKKIM"],
+    "responses": ["Our Mathematics program at NIT SIKKIM includes subjects like:\n1. Calculus\n2. Algebra\n3. Statistics\n4. Geometry\n5. Differential Equations\n6. Number Theory\n7. Mathematical Modeling, and more."]
+  },
+  {
+    "tag": "genderDiversity",
+    "patterns": ["Tell me about gender diversity at NIT SIKKIM", "Gender balance in the student body at NIT SIKKIM", "Male-female ratio at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM is proud of its diverse student body. We strive for a balanced gender ratio, and our commitment to diversity ensures an inclusive and supportive learning environment."]
+  },
+  {
+    "tag": "maleStudents",
+    "patterns": ["How many male students are there at NIT SIKKIM?", "Number of male students at NIT SIKKIM", "Boys at NIT SIKKIM"],
+    "responses": ["As of the latest data, we have 50 male students studying at NIT SIKKIM."]
+  },
+  {
+    "tag": "femaleStudents",
+    "patterns": ["How many female students are there at NIT SIKKIM?", "Number of female students at NIT SIKKIM", "Girls at NIT SIKKIM"],
+    "responses": ["As of the latest data, we have 50 female students studying at NIT SIKKIM."]
+  },
+  {
+    "tag": "girls",
+    "patterns": ["How many girls are there at NIT SIKKIM?", "Number of female students at NIT SIKKIM", "Girls at NIT SIKKIM"],
+    "responses": ["As of the latest data, we have 50 female students studying at NIT SIKKIM."]
+  },
+  {
+    "tag": "genderSupport",
+    "patterns": ["What support services are available for gender diversity at NIT SIKKIM?", "Gender equality initiatives at NIT SIKKIM", "Support for LGBTQ+ students at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM has various support services and initiatives in place to promote gender diversity and equality. These include awareness programs, counseling services, and support for LGBTQ+ students."]
+  },
+  {
+    "tag": "inclusiveEnvironment",
+    "patterns": ["How inclusive is the college environment at NIT SIKKIM?", "Is the college welcoming to all genders at NIT SIKKIM?", "Gender-inclusive policies at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM is committed to providing an inclusive and welcoming environment for students of all genders. We have policies and practices in place to ensure that everyone feels safe and respected."]
+  },
+  {
+    "tag": "boysStrength",
+    "patterns": ["How many boys are there at NIT SIKKIM?", "Number of male students at NIT SIKKIM", "Boys enrollment at NIT SIKKIM"],
+    "responses": ["As of the latest data, we have 50 male students enrolled at NIT SIKKIM."]
+  },
+  {
+    "tag": "girlsStrength",
+    "patterns": ["How many girls are there at NIT SIKKIM?", "Number of female students at NIT SIKKIM", "Girls enrollment at NIT SIKKIM"],
+    "responses": ["As of the latest data, we have 50 female students enrolled at NIT SIKKIM."]
+  },
+  {
+    "tag": "boysSupport",
+    "patterns": ["What support services are available for male students at NIT SIKKIM?", "Services for boys at NIT SIKKIM", "Support for male students at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM provides various support services to ensure the well-being and success of our male students, including academic support, counseling, and career guidance."]
+  },
+  {
+    "tag": "girlsSupport",
+    "patterns": ["What support services are available for female students at NIT SIKKIM?", "Services for girls at NIT SIKKIM", "Support for female students at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM offers a range of support services tailored to the needs of our female students, including mentorship programs, leadership development, and resources for personal growth."]
+  },
+  {
+    "tag": "messTiming",
+    "patterns": ["What are the mess timings at NIT SIKKIM?", "When does the college mess open and close?", "Mess schedule at NIT SIKKIM"],
+    "responses": ["The mess at NIT SIKKIM is open for breakfast from [insert time], for lunch from [insert time], and for dinner from [insert time]."]
+  },
+  {
+    "tag": "busTiming",
+    "patterns": ["What are the bus timings at NIT SIKKIM?", "When do the college buses operate?", "Bus schedule at NIT SIKKIM"],
+    "responses": ["The college buses at NIT SIKKIM run on a schedule. The timings are as follows: [ TIME SCHEDULE]."]
+  },
+  {
+    "tag": "holidays",
+    "patterns": ["How many holidays does NIT SIKKIM have?", "College holiday calendar", "Upcoming holidays at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM follows a holiday calendar with 30 holidays in the academic year. You can check the official academic calendar for details."]
+  },
+  {
+    "tag": "placement",
+    "patterns": ["Tell me about the placement at NIT SIKKIM", "Placement statistics", "How is the placement scene at NIT SIKKIM?"],
+    "responses": ["NIT SIKKIM has an excellent placement record. Our students have been placed in renowned companies with competitive packages. The placement cell at the college provides comprehensive support for career opportunities."]
+  },
+  {
+    "tag": "internship",
+    "patterns": ["How do internships work at NIT SIKKIM?", "Internship opportunities", "Tell me about the college internships at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM offers various internship opportunities for students to gain practical experience. The career services department can assist you in finding suitable internships."]
+  },
+  {
+    "tag": "vacation",
+    "patterns": ["When are the vacations at NIT SIKKIM?", "College vacation schedule", "Upcoming vacations at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM follows a vacation schedule with breaks between semesters. You can refer to the academic calendar for the exact vacation dates."]
+  },
+  {
+    "tag": "examSchedule",
+    "patterns": ["What is the exam schedule at NIT SIKKIM?", "When are the exams held?", "Exam timetable at NIT SIKKIM"],
+    "responses": ["The exam schedule at NIT SIKKIM varies by semester. You can access the exam timetable on the college's official website or check with the academic department for details."]
+  },
+  {
+    "tag": "fest",
+    "patterns": ["Tell me about the college fest at NIT SIKKIM", "Annual fest at NIT SIKKIM", "Cultural festival at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM hosts an annual cultural festival that showcases a variety of cultural and artistic events. It's a vibrant and exciting part of our college life."]
+  },
+  {
+    "tag": "facultyDetails",
+    "patterns": ["Tell me about department-wise faculty at NIT SIKKIM", "Faculty members in different departments", "Departmental faculty information"],
+    "responses": ["NIT SIKKIM has a dedicated and experienced faculty in each department. You can find detailed information about faculty members on the official college website or contact the respective departments for specific details."]
+  },
+  {
+    "tag": "researchArea",
+    "patterns": ["What are the research areas at NIT SIKKIM?", "Research opportunities at NIT SIKKIM", "Fields of research at NIT SIKKIM"],
+    "responses": ["NIT SIKKIM offers diverse research opportunities across various fields. You can explore research areas related to your program or interests by connecting with faculty members and research centers."]
+  },
+  
+    {
+      "tag": "vision",
+      "patterns": ["What is the vision of NIT SIKKIM?", "Tell me about NIT SIKKIM's vision", "Vision statement of NIT SIKKIM"],
+      "responses": ["The vision of NIT SIKKIM is to contribute to the World Science & Technology with sustainability, guided by philosophy, conscience, and a strong value system. NIT SIKKIM aims to play a crucial role in this global endeavor. For more information, visit: https://nitsikkim.ac.in/about/vision.php"]
+    },
+    {
+      "tag": "mission",
+      "patterns": ["What is the mission of NIT SIKKIM?", "Tell me about NIT SIKKIM's mission", "Mission statement of NIT SIKKIM"],
+      "responses": ["The mission of NIT SIKKIM is to develop students as 'Thinking Engineers' by fostering technical and scientific excellence, providing global exposure, and instilling a deep understanding of philosophy and values for India and the world. NIT SIKKIM is committed to nurturing well-rounded individuals who contribute positively to society. For more information, visit: https://nitsikkim.ac.in/about/vision.php"]
+    },
+    {
+      "tag": "visitor",
+      "patterns": ["Who is the Visitor at NIT SIKKIM?", "Tell me about the Visitor of NIT SIKKIM", "Visitor information at NIT SIKKIM"],
+      "responses": ["Her Excellency Honourable Smt. Droupadi Murmu is the Visitor of NIT SIKKIM. The President of India holds the ex officio position of the Institute's Visitor. For more information, visit: https://nitsikkim.ac.in/about/visitor.php"]
+    },
+    {
+      "tag": "campusSize",
+      "patterns": ["What is the campus size of NIT SIKKIM?", "Tell me about NIT SIKKIM's campus size", "Campus information at NIT SIKKIM"],
+      "responses": ["NIT SIKKIM is situated on nearly 2-3 acres of land, and the surrounding buildings are fenced. The road connectivity to the temporary campus is good, and three vehicles are being run for official and medical purposes to and from the campus since the joining of the Director in 2011. For more information, visit: https://nitsikkim.ac.in/about/campus_info.php"]
+    },
+    {
+      "tag": "campusGallery",
+      "patterns": ["Can I see pictures of NIT SIKKIM?", "Tell me about NIT SIKKIM's campus gallery", "Gallery of NIT SIKKIM"],
+      "responses": ["You can explore the vibrant and scenic surroundings of NIT SIKKIM through our campus gallery, showcasing various aspects of campus life, events, and more. For a visual tour, visit our gallery at: https://nitsikkim.ac.in/about/gallery/"]
+    },
+    {
+      "tag": "campusGallery",
+      "patterns": ["Can I see pictures of NIT SIKKIM?", "Tell me about NIT SIKKIM's campus gallery", "Gallery of NIT SIKKIM"],
+      "responses": ["You can explore the vibrant and scenic surroundings of NIT SIKKIM through our campus gallery, showcasing various aspects of campus life, events, and more. For a visual tour, visit our gallery at: https://nitsikkim.ac.in/about/gallery/"]
+    },
+    {
+      "tag": "annualReports",
+      "patterns": ["Are there annual reports available at NIT SIKKIM?", "Tell me about NIT SIKKIM's annual reports", "Annual reports at NIT SIKKIM"],
+      "responses": ["NIT SIKKIM provides access to various annual reports, including Draft Un-audited Annual Accounts for 2022-23, Annual Reports for multiple years in both English and Hindi. You can find detailed information in the available reports, such as Annual Report 2020-21 (English), Annual Report 2020-21 (Hindi), and more. For a comprehensive list of available reports, visit: https://nitsikkim.ac.in/about/information/annual_report.php"]
+    },
+    {
+      "tag": "accountReports",
+      "patterns": ["Are there account reports available at NIT SIKKIM?", "Tell me about NIT SIKKIM's account reports", "Account reports at NIT SIKKIM"],
+      "responses": ["NIT SIKKIM provides access to various account reports, including Account Reports for multiple years in both English and Hindi. You can find detailed information in the available reports, such as Account Report 2017-18 (English), Account Report 2017-18 (Hindi), and more. For a comprehensive list of available reports, visit: https://nitsikkim.ac.in/about/information/annual_report.php"]
+    },
+    {
+      "tag": "nirfRanking",
+      "patterns": ["Is there NIRF data available for NIT SIKKIM?", "Tell me about NIT SIKKIM's NIRF data", "NIRF data at NIT SIKKIM"],
+      "responses": ["NIT SIKKIM provides access to various NIRF data sets, including NIRF Data for multiple years. You can find detailed information in the available data, such as NIRF Data 2021-22, NIRF Data 2020-21, and more. For a comprehensive list of available data, visit: https://nitsikkim.ac.in/about/information/nirf.php"]
+    },
+    {
+      "tag": "actsAndStatutes",
+      "patterns": ["Are there acts and statutes available at NIT SIKKIM?", "Tell me about NIT SIKKIM's acts and statutes", "Acts and statutes at NIT SIKKIM"],
+      "responses": ["NIT SIKKIM provides access to various acts and statutes, including Gazette Notification NIT (Amendment) Act 2017, Gazette Notification BUT (Amendment) Act 2012, Comprehensive NIT Act 2012, Gazette Notification NIT Statutes Dated 23 April 2009, and NIT Act 2007. For a comprehensive list of available acts and statutes, visit: https://nitsikkim.ac.in/about/information/act_and_statutes.php"]
+    },
+    {
+      "tag": "DrSanjayKumarJana",
+      "patterns": ["Tell me about Dr. Sanjay Kumar Jana", "Faculty details for Dr. Sanjay Kumar Jana", "Information about Dr. Sanjay Kumar Jana"],
+      "responses": ["Dr. Sanjay Kumar Jana is an Associate Professor and HOD at NIT Sikkim. You can contact him via email at skjnit@nitsikkim.ac.in or by phone at +91 9476102775. His research interests include the growth, characterization, and fabrication of III-V based high electron mobility transistor (HEMT) and LED on Si substrate. He specializes in growth techniques such as MBE and MOCVD, and characterization methods including HRXRD, ECV, Hall, and PL. For more details, you can visit his profile at: https://ece.nitsikkim.ac.in/profile.php?sn=4"]
+    },
+    {
+      "tag": "DrHemantKumarKathania",
+      "patterns": ["Tell me about Dr. Hemant Kumar Kathania", "Faculty details for Dr. Hemant Kumar Kathania", "Information about Dr. Hemant Kumar Kathania"],
+      "responses": ["Dr. Hemant Kumar Kathania is an Assistant Professor at NIT Sikkim. You can contact him via email at hemant.ece@nitsikkim.ac.in. His research interest lies in Speech and Signal Processing. For more details, you can visit his profile at: https://ece.nitsikkim.ac.in/profile.php?sn=41"]
+    },
+    {
+      "tag": "DrReshmiDhara",
+      "patterns": ["Tell me about Dr. Reshmi Dhara", "Faculty details for Dr. Reshmi Dhara", "Information about Dr. Reshmi Dhara"],
+      "responses": ["Dr. Reshmi Dhara is an Assistant Professor at NIT Sikkim. You can contact her via email at reshmidhara@nitsikkim.ac.in or by phone at +91-7479013225. Her research interests include Electronics Device and Circuit, Communication, and Antenna. For more details, you can visit her profile at: https://ece.nitsikkim.ac.in/profile.php?sn=22"]
+    },
+    {
+      "tag": "DrSudiptaDas",
+      "patterns": ["Tell me about Dr. Sudipta Das", "Faculty details for Dr. Sudipta Das", "Information about Dr. Sudipta Das"],
+      "responses": ["Dr. Sudipta Das is an Assistant Professor at NIT Sikkim. You can contact him via email at sudipta@nitsikkim.ac.in or by phone at +91-9903252279. His research interests include Antennas and Antenna Arrays, Evolutionary Algorithms, and Multiobjective Optimization. For more details, you can visit his profile at: https://ece.nitsikkim.ac.in/profile.php?sn=795"]
+    },
+    {
+      "tag": "eceFaculties",
+      "patterns": ["Tell me about ECE faculties at NIT SIKKIM", "Faculty details in the ECE department", "Information about ECE professors"],
+      "responses": ["You can find detailed information about the faculties in the Electronics and Communication Engineering (ECE) department at NIT Sikkim by visiting the official site: https://ece.nitsikkim.ac.in/people.php"]
+    },
+    {
+      "tag": "eeeFaculties",
+      "patterns": ["Tell me about Electrical and Electronics Engineering (EEE) faculties at NIT SIKKIM", "Faculty details in the EEE department", "Information about EEE professors"],
+      "responses": ["You can find detailed information about the faculties in the Electrical and Electronics Engineering (EEE) department at NIT Sikkim by visiting the official site: https://eee.nitsikkim.ac.in/people.php"]
+    },
+    {
+      "tag": "meFaculties",
+      "patterns": ["Tell me about Mechanical Engineering (ME) faculties at NIT SIKKIM", "Faculty details in the ME department", "Information about ME professors"],
+      "responses": ["You can find detailed information about the faculties in the Mechanical Engineering (ME) department at NIT Sikkim by visiting the official site: https://me.nitsikkim.ac.in/people.php"]
+    },
+    {
+      "tag": "ceFaculties",
+      "patterns": ["Tell me about Civil Engineering (CE) faculties at NIT SIKKIM", "Faculty details in the CE department", "Information about CE professors"],
+      "responses": ["You can find detailed information about the faculties in the Civil Engineering (CE) department at NIT Sikkim by visiting the official site: https://ce.nitsikkim.ac.in/people.php"]
+    },
+    {
+      "tag": "researchInComputerScience",
+      "patterns": ["Tell me about research in Computer Science at NIT SIKKIM", "Computer Science department research", "Information about Computer Science research"],
+      "responses": ["You can find information about research in Computer Science at NIT Sikkim by visiting the official site: https://cse.nitsikkim.ac.in/research.php"]
+    },
+    {
+      "tag": "researchInEEE",
+      "patterns": ["Tell me about research in Electrical and Electronics Engineering (EEE) at NIT SIKKIM", "EEE department research", "Information about EEE research"],
+      "responses": ["You can find information about research in Electrical and Electronics Engineering (EEE) at NIT Sikkim by visiting the official site: https://eee.nitsikkim.ac.in/research.php"]
+    },
+    {
+      "tag": "researchInECE",
+      "patterns": ["Tell me about research in Electronics and Communication Engineering (ECE) at NIT SIKKIM", "ECE department research", "Information about ECE research"],
+      "responses": ["You can find information about research in Electronics and Communication Engineering (ECE) at NIT Sikkim by visiting the official site: https://ece.nitsikkim.ac.in/research.php"]
+    },
+    {
+      "tag": "researchInME",
+      "patterns": ["Tell me about research in Mechanical Engineering (ME) at NIT SIKKIM", "ME department research", "Information about ME research"],
+      "responses": ["You can find information about research in Mechanical Engineering (ME) at NIT Sikkim by visiting the official site: https://me.nitsikkim.ac.in/research.php"]
+    },
+    {
+      "tag": "researchInCE",
+      "patterns": ["Tell me about research in Civil Engineering (CE) at NIT SIKKIM", "CE department research", "Information about CE research"],
+      "responses": ["You can find information about research in Civil Engineering (CE) at NIT Sikkim by visiting the official site: https://ce.nitsikkim.ac.in/research.php"]
+    },
+    {
+      "tag": "eventsInComputerScience",
+      "patterns": ["Tell me about events in Computer Science at NIT SIKKIM", "Computer Science department events", "Information about CSE events"],
+      "responses": ["You can find information about events in Computer Science at NIT Sikkim by visiting the official site: https://cse.nitsikkim.ac.in/events.php"]
+    },
+    {
+      "tag": "eventsInEEE",
+      "patterns": ["Tell me about events in Electrical and Electronics Engineering (EEE) at NIT SIKKIM", "EEE department events", "Information about EEE events"],
+      "responses": ["You can find information about events in Electrical and Electronics Engineering (EEE) at NIT Sikkim by visiting the official site: https://eee.nitsikkim.ac.in/events.php"]
+    },
+    {
+      "tag": "eventsInECE",
+      "patterns": ["Tell me about events in Electronics and Communication Engineering (ECE) at NIT SIKKIM", "ECE department events", "Information about ECE events"],
+      "responses": ["You can find information about events in Electronics and Communication Engineering (ECE) at NIT Sikkim by visiting the official site: https://ece.nitsikkim.ac.in/events.php"]
+    },
+    {
+      "tag": "eventsInME",
+      "patterns": ["Tell me about events in Mechanical Engineering (ME) at NIT SIKKIM", "ME department events", "Information about ME events"],
+      "responses": ["You can find information about events in Mechanical Engineering (ME) at NIT Sikkim by visiting the official site: https://me.nitsikkim.ac.in/events.php"]
+    },
+    {
+      "tag": "eventsInCE",
+      "patterns": ["Tell me about events in Civil Engineering (CE) at NIT SIKKIM", "CE department events", "Information about CE events"],
+      "responses": ["You can find information about events in Civil Engineering (CE) at NIT Sikkim by visiting the official site: https://ce.nitsikkim.ac.in/events.php"]
+    },
+    {
+      "tag": "rulesRegulations",
+      "patterns": [
+        "What are the rules and regulations at NIT Sikkim?",
+        "Could you provide information about the rules for students at NIT Sikkim?",
+        "I'm interested in knowing about the regulations at NIT Sikkim."
+      ],
+      "responses": [
+        "Student Discipline Manual, Rules and Regulations of UG Programs (B.Tech-June 2019), NIT Sikkim B.Tech Rules and Regulation, Rules and Regulations of PG Programs_M. Tech. & M. Sc._2019, Rules and Regulations of PhD Programs_2019, NIT Act and Statutes. For more information visit: https://nitsikkim.ac.in/student/rules%20and%20regulations/rules_and_regulations.php"
+      ]
+    },
+    {
+      "tag": "examinationCell",
+      "patterns": [
+        "What is the Examination Cell at NIT Sikkim?",
+        "Could you provide information about the Examination Cell?",
+        "I'm interested in knowing about the Examination Cell at NIT Sikkim."
+      ],
+      "responses": [
+        "Controller In-charge Examination: Dr. Sumit Saha (examination@nitsikkim.ac.in)\nMembers: Coordinators of all the Departments, Mr. Sumit Kumar, Mr. Manish Kumar, Ms. Sonam Choden Tamang. For more information visit: https://nitsikkim.ac.in/academics/examination/committee.php"
+      ]
+    },
+    {
+      "tag": "academicCalendar",
+      "patterns": [
+        "What is the Academic Calendar at NIT Sikkim?",
+        "Could you provide information about the Academic Calendar?",
+        "I'm interested in knowing about the Academic Calendar at NIT Sikkim."
+      ],
+      "responses": [
+        "Available Calendars:\n- Academic Calendar for Odd Semester 2023-24 for UG and PG Programs (1st Year)\n- Academic Calendar for Odd Semester 2023-24 for UG and PG Programs (Except 1st Year)\n- List of Holidays & Restricted Holidays 2023.\nFor more information, visit: https://nitsikkim.ac.in/academics/calendar.php"
+      ]
+    },
+    {
+      "tag": "syllabusCourseStructure",
+      "patterns": [
+        "What is the syllabus and course structure at NIT Sikkim?",
+        "Could you provide information about the syllabus and course structure?",
+        "I'm interested in knowing about the syllabus and course structure at NIT Sikkim."
+      ],
+      "responses": [
+        "Available Syllabus and Course Structure for BTech:\n- 1st Year Common Syllabus (Effective from Academic Session 2023-24)\n- Group-I\n- Group-II\n- Course Structure\n- 1st Year Common Syllabus (Old)\n- Group-I\n- Group-II\n- Course Structure\nFor more information, visit: https://nitsikkim.ac.in/academics/syllabus.php"
+      ]
+    },
+    {
+      "tag": "hostelFacility",
+      "patterns": [
+        "What is the hostel facility like at NIT Sikkim?",
+        "Could you provide information about the hostel facility?",
+        "I'm interested in knowing about the hostel facility at NIT Sikkim."
+      ],
+      "responses": [
+        "The institute provides residential facilities for all students despite being on a temporary campus. Separate accommodation is available for both boys and girls in different hostels. \nBOYS HOSTEL:\n- Total of ten (10) boys hostel buildings\n- Prefab 1,2: 2 floors with 32 rooms each, common rooms, gym in Prefab 1\n- Boys hostel 3,4,5,6: 6 rooms each with attached bathroom\n- Boys hostel 10,11,12,13: Outside campus, rooms with attached bathroom \nGIRLS HOSTEL:\n- Similar buildings to boys hostel 3,4,5,6\n- Newly admitted 1st year students kept separate from seniors \nRoom allocation based on size and hostel, rooms are airy with sunlight and views of Himalayan peaks like Mt. Narshinga and Mt. Kanchenjunga. For more information visit: https://nitsikkim.ac.in/student/hostel/index.php"
+      ]
+    },
+    {
+      "tag": "hostelCommittees",
+      "patterns": [
+        "What are the Hostel Committees at NIT Sikkim?",
+        "Could you provide information about the Hostel Committees?",
+        "I'm interested in knowing about the Hostel Committees at NIT Sikkim."
+      ],
+      "responses": [
+        "Dean - Student Welfare:\n- Dr. Sourav Mallick\n- +91-7479013218\n- dsw@nitsikkim.ac.in \nChief Wardens & Proctors:\n- Chief Warden: Dr. Ravi Srivastava, +91-9647755490, chiefwarden@nitsikkim.ac.in\n- Chief Warden (Girls Hostel): Dr. Nidhi Govil\n- Proctor (In-Campus): Dr. Dhananjay Tripathi, +91-8759136879, dhananjaystripathi9@nitsikkim.ac.in\n- Proctor (Out-Campus): Dean of Student Welfare, +91-7479013218, dsw@nitsikkim.ac.in \nWardens:\n- Details available at: https://nitsikkim.ac.in/student/hostel/committees.php"
+      ]
+    },
+    {
+      "tag": "sportsFacility",
+      "patterns": [
+        "What sports facilities are available at NIT Sikkim?",
+        "Can you tell me about the sports facilities?",
+        "I'd like to know about the sports facilities at NIT Sikkim."
+      ],
+      "responses": [
+        "Physical Education, Games, Sports, and Cultural activities are integral dimensions at NIT Sikkim, providing students with opportunities to remain healthy and refreshed. \nThe institute offers various facilities:\n- Table Tennis, Carom board, Chess boards in every hostel\n- Well-maintained fields for football, Volleyball, Kho-Kho, and Cricket\n- Indoor badminton court with proper lighting facilities\n- Participation in Inter-NIT tournaments\n- Well-equipped gymnasium for boys and a separate gymnasium for girls \nAdditionally, the institute organizes an Annual Sports meet and cricket tournaments 'Xplode Cup' and 'Monsoon Cup' to promote sports activities. For more information, visit: https://nitsikkim.ac.in/student/sports/sports.php"
+      ]
+    },
+    {
+      "tag": "sportsCommittees",
+      "patterns": [
+        "What are the Sports Committees at NIT Sikkim?",
+        "Could you provide information about the Sports Committees?",
+        "I'm interested in knowing about the Sports Committees at NIT Sikkim."
+      ],
+      "responses": [
+        "Convener:\n- Dr. Shambhunath Barman, sports@nitsikkim.ac.in \nMembers:\n- Dr. Prashant Jha\n- Dr. Kuntal Mandal\n- Dr. Reshmi Dhara \nFor more information, visit: https://nitsikkim.ac.in/student/sports/sport_committees.php"
+      ]
+    },
+    {
+      "tag": "medicalFacilities",
+      "patterns": [
+        "What medical facilities are available at NIT Sikkim?",
+        "Can you provide information about the medical facilities?",
+        "I'd like to know about the medical facilities at NIT Sikkim."
+      ],
+      "responses": [
+        "MEDICAL UNIT:\nThe Institute offers round-the-clock emergency and primary health care services to students, employees, and residents within its campus medical unit. \nFACILITIES:\n- Visiting consultants schedule and their visiting hours\n- Nursing facility with a dedicated medical assistance team\n- Nearby medical facilities like Ravangla Primary Health Centre (PHC) and Namchi District Hospital\n- Ambulance service available 24x7 for medical emergencies \nMEDICAL INSURANCE FOR STUDENTS:\nStudents can inquire about medical insurance facilities, coverage, and claim processes through the Student Office. \nFor more information, visit: https://nitsikkim.ac.in/student/medicalunit/medical_facility.php"
+      ]
+    },
+    {
+      "tag": "medicalUnitCommittee",
+      "patterns": [
+        "What is the Medical Unit Committee at NIT Sikkim?",
+        "Could you provide information about the Medical Unit Committee?",
+        "I'd like to know about the Medical Unit Committee at NIT Sikkim."
+      ],
+      "responses": [
+        "Medical Unit Committee:\nFaculty In-charge:\n- Dr. Om Prakash, medicalunit@nitsikkim.ac.in, +91-7479013214 \nMembers:\n1. Dr. Md. Sarfaraj A. Ansari, sarfaraj@nitsikkim.ac.in, +91-9332342995\n2. Mr. Bapi Mondal, bmondal32@nitsikkim.ac.in, 7479013240 \nFor more information, visit: https://nitsikkim.ac.in/student/medicalunit/committee.php"
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "What scholarships are available at NIT Sikkim?",
+        "Can you provide information about the scholarships?",
+        "I'd like to know about the scholarships at NIT Sikkim."
+      ],
+      "responses": [
+        "Available Scholarships:\n- National Scholarship Portal\n- Bihar Scholarship\n- Odisha Scholarship\n- Rajasthan Scholarship\n- Swami Dayanand Education Foundation Scholarship\n- Jharkhand Scholarship\n- ONGC Scholarship \nFor more information, visit: https://nitsikkim.ac.in/student/scholarship/scholarship.php"
+      ]
+    },
+    {
+      "tag": "antiRagging",
+      "patterns": [
+        "What is the Anti-Ragging policy at NIT Sikkim?",
+        "Could you provide information about Anti-Ragging?",
+        "I'd like to know about the Anti-Ragging measures at NIT Sikkim."
+      ],
+      "responses": [
+        "Anti-Ragging Initiatives at NIT Sikkim:\n- Anti Ragging Squad 2023 & Duty Roster\n- National Anti-Ragging Programme\n- PUBLIC NOTICE : CURBING THE MENACE OF RAGGING IN HIGHER EDUCATIONAL INSTITUTIONS (English)\n- PUBLIC NOTICE : CURBING THE MENACE OF RAGGING IN HIGHER EDUCATIONAL INSTITUTIONS (Hindi)\n- UGC REGULATIONS ON CURBING THE MENACE OF RAGGING IN HIGHER EDUCATIONAL INSTITUTIONS, 2009 \nFor more information, visit: https://nitsikkim.ac.in/student/antiragging/anti_ragging.php"
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "What transport facilities does NIT Sikkim provide?",
+        "Tell me about transportation at NIT SIKKIM.",
+        "Can you provide information about the college transport at NIT Sikkim?"
+      ],
+      "responses": [
+        "NIT SIKKIM ensures efficient transportation through its Vehicle and Transport Management Activities Committee (VTMA Committee). The college offers various transport facilities:\n- Regular college buses to Ravangla Bazar with specified timings from 8:30 AM to 7:30 PM\n- Arrangements for urgent travel needs or strikes in nearby areas\n- Assistance for travel to and from the nearest railway station/airport during holidays\n- Transportation for campus placements, workshops, events, and competitions at other institutes\n- Availability of a round-the-clock ambulance for emergencies\n- College vehicles provided for immediate necessities \nFor more information, visit: https://nitsikkim.ac.in/student/transport/index.php"
+      ]
+    },
+    {
+      "tag": "transportCommittees",
+      "patterns": [
+        "Who are the members of the Transport Committees at NIT Sikkim?",
+        "Can you provide information about the Transport Committees?",
+        "Tell me about the Transport Committees at NIT Sikkim."
+      ],
+      "responses": [
+        "The Transport Committees at NIT Sikkim include:\n1. Dr. Sourav Mallick (FIC)\n2. Mr. Susanta Kumar Pradhan\n3. Mr. Bapi Mondal\n4. Mr. Amit Maity \nFor more information, visit: https://nitsikkim.ac.in/student/transport/committees.php"
+      ]
+    },
+    {
+      "tag": "womenGrievanceCell",
+      "patterns": [
+        "Can you provide details about THE WOMEN GRIEVANCE CELL/ICC at NIT Sikkim?",
+        "Information about Women Grievance Cell at NIT Sikkim?",
+        "What is the Women Grievance Cell at NIT Sikkim responsible for?"
+      ],
+      "responses": [
+        "At NIT Sikkim, the Women Grievance Cell, also known as the Internal Complaints Committee (ICC), ensures safety and addresses grievances related to women. It handles complaints of harassment or grievances faced by students, faculty, and staff. The Cell takes necessary actions and ensures justice in such cases. The Chairperson of the Women Grievance Cell is Dr. Reshmi Dhara.\nFor more information, visit: https://nitsikkim.ac.in/student/women.php"
+      ]
+    },
+    {
+      "tag": "womenGrievanceCellCommittees",
+      "patterns": [
+        "Can you provide details about THE WOMEN GRIEVANCE CELL/ICC Committees at NIT Sikkim?",
+        "Information about Women Grievance Cell Committees at NIT Sikkim?",
+        "What are the committees within the Women Grievance Cell at NIT Sikkim?"
+      ],
+      "responses": [
+        "At NIT Sikkim, the Internal Complaint Committee (ICC) and Women Empowerment and Grievance Cell are constituted to address and manage grievances related to women. The committees' details are as follows: \n*Internal Complaint Committee (ICC):\n1. Dr. Reshmi Dhara - Presiding Officer - +91-7479013225 - reshmidhara@nitsikkim.ac.in\n2. Dr. Nupur Tandon - External Member - +91-9829065148 - nupurtandon@mnit.ac.in\n3. Mr. Jaslal Pradhan - External Member - +91-9834487149 - jaslala.pradhan@gmail.com\n4. Dean Student Welfare - Member - +91-8016930033 - dsw@nitsikkim.ac.in\n5. Dean Faculty Welfare - Member - +91-8759136879 - dfw@nitsikkim.ac.in\n6. Ms. Chandra Kumari Rai - Member - +91-8101522465 - chandrakumarirai@nitsikkim.ac.in\n7. Mrs. Nishita Chettri - Member - +91-7479013258 - nishita@nitsikkim.ac.in \nWomen Empowerment and Grievance Cell:*\n1. Dr. Reshmi Dhara - Convener - +91-7479013225 - reshmidhara@nitsikkim.ac.in\n2. Dean Student Welfare - Member - +91-8016930033 - dsw@nitsikkim.ac.in\n3. Dean Faculty Welfare - Member - +91-8759136879 - dfw@nitsikkim.ac.in\n4. Ms. Chandra Kumari Rai - Member - +91-8101522465 - chandrakumarirai@nitsikkim.ac.in\n5. Ms. Sonam Choden Tamang - Member - +91-7479013255 - sonam@nitsikkim.ac.in \nFor more information, visit: https://nitsikkim.ac.in/student/women.php"
+      ]
+    },
+    {
+      "tag": "stScCell",
+      "patterns": [
+        "Can you provide details about the ST/SC Cell in NIT Sikkim?",
+        "Information about the ST/SC Cell at NIT Sikkim?",
+        "What does the ST/SC Cell in NIT Sikkim offer?"
+      ],
+      "responses": [
+        "The SC/ST Cell at NIT Sikkim aims to support and safeguard the interests of SC/ST and Minority students. It ensures the proper implementation of various UGC, Government of India, and State Government schemes related to scholarships and stipends for the welfare of reserved categories. The cell provides guidelines for various types of scholarships/stipends as per revisions over time. \nAs per Ministry of Education order no 33-4/2014-PS.III, dated 24.06.2016, no tuition fee is charged for SC/ST students whose family income does not exceed 4.5 Lakhs annually. \nScholarships are offered to students from weaker sections, specifically SCs/STs, who face obstacles in furthering their education despite their talent. \nTo address any concerns, contact:\nConvener: Dr. Molay Roy\nSC/ST Cell, National Institute of Sikkim\nEmail: scstcell@nitsikkim.ac.in \nFor more information, visit: https://nitsikkim.ac.in/student/sc_st.php"
+      ]
+    },
+    {
+      "tag": "stScCellCommittees",
+      "patterns": [
+        "Can you provide details about the committees in the ST/SC Cell at NIT Sikkim?",
+        "Information about ST/SC Cell committees in NIT Sikkim?",
+        "Who are the members of the ST/SC Cell committees at NIT Sikkim?"
+      ],
+      "responses": [
+        "The ST/SC Cell Committees at NIT Sikkim are composed of dedicated members working towards the welfare of SC/ST and Minority students:\n- Dr. Molay Roy (Convener)\n- Dr. Pradeep Kumar (Member)\n- Mr. Bapi Mondal (Member)\n- Ms. Tshering Zangmo Bhutia (Member)\n- Ms. Sonam Choden Tamang (Member) \nFor more details, you can visit: https://nitsikkim.ac.in/student/sc_st.php"
+      ]
+    },
+    {
+      "tag": "obcCell",
+      "patterns": [
+        "Can you provide details about the OBC Cell at NIT Sikkim?",
+        "Information about OBC Cell in NIT Sikkim?",
+        "Who heads the OBC Cell at NIT Sikkim?"
+      ],
+      "responses": [
+        "NIT Sikkim has established an 'OBC Cell' to address the needs and concerns of OBC students and employees. Details to contact the OBC Cell are available on the institute's website at www.nitsikkim.ac.in for any aggrieved parties. \nThere are currently 217 OBC students out of a total of 717 studying at the Institute. The Institute prioritizes harmony and unity among all stakeholders and has not received any discrimination complaints against the OBC community. \nFor any assistance, you can contact the Chairperson of the OBC Cell:\n- Dr. Ranjan Basak (Chairperson, OBC Cell)\n  Email: scstcell@nitsikkim.ac.in \nFor more information, visit: https://nitsikkim.ac.in/student/obc.php"
+      ]
+    },
+    {
+      "tag": "obcCellCommittees",
+      "patterns": [
+        "Can you provide details about the OBC Cell Committees at NIT Sikkim?",
+        "Information about OBC Cell Committees in NIT Sikkim?"
+      ],
+      "responses": [
+        "The OBC Cell Committees at NIT Sikkim include:\n- Dr. Ranjan Basak (Convener)\n- Dr. Md. Sarfaraj Alam Ansari (Member)\n- Dr. Md. Nurujjaman (Member)\n- Mr. Anil Gurjar (Member)\n- Ms. Chandra Kumari Rai (Member) \nFor more information, visit: https://nitsikkim.ac.in/student/obc.php"
+      ]
+    },
+    {
+      "tag": "admission-requirements",
+      "patterns": [
+        "What are the admission requirements for NIT SIKKIM?",
+        "Can you tell me about the admission criteria at NIT SIKKIM?",
+        "Requirements for admission to NIT SIKKIM"
+      ],
+      "responses": [
+        "To be eligible for admission at NIT SIKKIM, you need to have completed your 12th grade with a minimum of 60% marks in the science stream. Additionally, you must qualify for the JEE Main examination. For international students, please check the specific admission requirements on our official website: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "abroad-admission",
+      "patterns": [
+        "How can I apply for admission to NIT SIKKIM as an international student?",
+        "Tell me about the admission process for international students at NIT SIKKIM",
+        "Admission requirements for abroad students at NIT SIKKIM"
+      ],
+      "responses": [
+        "International students seeking admission to NIT SIKKIM can find detailed information on the admission process and requirements on our official website. Additionally, for abroad student admission through DASA (Direct Admission of Students Abroad), please visit the DASA website: [DASA Website](https://dasanit.org/dasa2023/)."
+      ]
+    },
+    {
+      "tag": "available-majors-and-programs",
+      "patterns": [
+        "What majors and programs are available at NIT SIKKIM?",
+        "Can you provide a list of academic programs at NIT SIKKIM?",
+        "Available courses at NIT SIKKIM"
+      ],
+      "responses": [
+        "NIT SIKKIM offers a variety of undergraduate and postgraduate programs in engineering, computer science, electrical engineering, mechanical engineering, and more. Check our official website for a complete list of programs: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "tuition-fees-and-payment-options",
+      "patterns": [
+        "How much are the tuition fees at NIT SIKKIM?",
+        "Can you give me information about the tuition costs at NIT SIKKIM?",
+        "Payment options for tuition fees at NIT SIKKIM"
+      ],
+      "responses": [
+        "The tuition fees at NIT SIKKIM vary by program. For the latest information, please refer to the fee structure available on our official website. We also offer flexible payment options, including semester-wise payments: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "scholarship-and-financial-aid-information",
+      "patterns": [
+        "Are there any scholarships available at NIT SIKKIM?",
+        "How can I apply for a scholarship at NIT SIKKIM?",
+        "Scholarship opportunities at NIT SIKKIM"
+      ],
+      "responses": [
+        "Yes, NIT SIKKIM offers various scholarships based on academic performance and financial need. Details about the application process and eligibility criteria can be found on our official website or by contacting the admissions office: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "campus-location-and-map",
+      "patterns": [
+        "Where is the campus of NIT SIKKIM located?",
+        "Can you provide directions to the NIT SIKKIM campus?",
+        "NIT SIKKIM campus address"
+      ],
+      "responses": [
+        "NIT SIKKIM is located in Ravangla, Sikkim. For detailed directions and a campus map, please visit our official website or contact the campus information desk: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "housing-options-and-costs",
+      "patterns": [
+        "What are the housing options at NIT SIKKIM?",
+        "How much does on-campus housing cost at NIT SIKKIM?",
+        "Dormitory fees at NIT SIKKIM"
+      ],
+      "responses": [
+        "NIT SIKKIM provides on-campus housing facilities. The cost of dormitory accommodations varies, and detailed information can be found on our official website or by contacting the housing office: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "dining-facilities-and-meal-plans",
+      "patterns": [
+        "Tell me about dining facilities at NIT SIKKIM.",
+        "Are there meal plans available for students at NIT SIKKIM?",
+        "Dining options on the NIT SIKKIM campus"
+      ],
+      "responses": [
+        "NIT SIKKIM offers various dining facilities on campus, including cafeteria services. Meal plans are available for students, and you can find more information about dining options on our official website or by visiting the campus food services office: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "academic-calendar",
+      "patterns": [
+        "What is the academic calendar for NIT SIKKIM?",
+        "When does the academic year start at NIT SIKKIM?",
+        "Important dates in the academic calendar of NIT SIKKIM"
+      ],
+      "responses": [
+        "The academic calendar for NIT SIKKIM typically starts in August and consists of two semesters. For specific dates, including the start and end of each semester, as well as holidays, please refer to the official academic calendar available on our website: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+    {
+      "tag": "course-schedules",
+      "patterns": [
+        "How can I check my course schedule at NIT SIKKIM?",
+        "Where can I find information about class timings and schedules?",
+        "Course timetable for NIT SIKKIM"
+      ],
+      "responses": [
+        "Course schedules for NIT SIKKIM can be accessed through the student portal on our official website. Additionally, class timings and schedules are posted on notice boards across the campus. Students can also inquire at the academic affairs office for more information: [NIT SIKKIM](https://nitsikkim.ac.in/)."
+      ]
+    },
+  {
+  "tag": "admission-requirements-documents",
+  "patterns": [
+    "What documents are required for B.Tech. admission at NIT SIKKIM?",
+    "List of documents for NIT SIKKIM B.Tech. admission",
+    "Required certificates for admission at NIT SIKKIM"
+  ],
+  "responses": [
+    "For detailed information on the required documents for B.Tech. admission at NIT SIKKIM, refer to the official notice: [NIT SIKKIM B.Tech. Admission Requirements](https://nitsikkim.ac.in/documents/admission/B.%20Tech//2023/NOTICE%20for%20JOSAA-CSAB%202023%20_B.Tech_%20Physical%20Reporting%20at%20NIT%20Sikkim%20%20from%2014%20to%2021%20August%202023.pdf)"
+  ]
+},
+{
+  "tag": "mtech-admission",
+  "patterns": [
+    "Tell me about M.Tech admission at NIT SIKKIM.",
+    "How can I apply for M.Tech at NIT SIKKIM?",
+    "Provide information on M.Tech admission at NIT SIKKIM."
+  ],
+  "responses": [
+    "NIT SIKKIM offers M.Tech admissions through two procedures:  \n 1.  Institute Admission Test (IAT):  \n  NIT SIKKIM conducts the Institute Admission Test (IAT) for M.Tech admission. Applications are invited from Indian nationals for admission to the Self-finance Category of Post Graduate Programs and Sponsored M.Tech Programs. Online Spot admission for M.Tech and M.Sc programs at NIT Sikkim is scheduled for 6th September 2023. For more details, including the Information Brochure, Application Form, Important Dates, Fee Details, Certificate Format, Results, and Contact details, please visit the official M.Tech admission page: [NIT SIKKIM M.Tech Admission](https://nitsikkim.ac.in/admission/beta/) \n2.  Centralized Counseling for M.Tech./ M.Arch./ M.Plan. (CCMT-2023):  \n Admissions are also facilitated through CCMT, a centralized platform where candidates can apply for M.Tech./ M.Arch./ M.Plan. programs based on their GATE score of years 2021, 2022, and 2023. This includes all NITs, IIEST Shibpur, some IIITs & CFTIs. For detailed information and to apply, visit the official CCMT website: [CCMT-2023](https://ccmt.admissions.nic.in/)"
+  ]
+},
+  {
+    "tag": "mtech-admission-ccmt",
+    "patterns": [
+      "How can I apply for M.Tech at NIT SIKKIM through CCMT?",
+      "Tell me about M.Tech admission at NIT SIKKIM via CCMT.",
+      "CCMT M.Tech admission procedure at NIT SIKKIM."
+    ],
+    "responses": [
+      "M.Tech admissions at NIT SIKKIM through CCMT (Centralized Counseling for M.Tech./ M.Arch./ M.Plan.-2023). CCMT is a centralized platform where candidates can apply for M.Tech./ M.Arch./ M.Plan. programs based on their GATE score of years 2021, 2022, and 2023. This includes all NITs, IIEST Shibpur, some IIITs & CFTIs. For detailed information and to apply, visit the official CCMT website: [CCMT-2023](https://ccmt.admissions.nic.in/)"
+    ]
+  },
+  {
+    "tag": "mtech-admission-iat",
+    "patterns": [
+      "How can I apply for M.Tech at NIT SIKKIM through IAT?",
+      "Tell me about M.Tech admission at NIT SIKKIM via IAT.",
+      "IAT M.Tech admission procedure at NIT SIKKIM."
+    ],
+    "responses": [
+      "NIT SIKKIM conducts the Institute Admission Test (IAT) for M.Tech admission. Applications are invited from Indian nationals for admission to the Self-finance Category of Post Graduate Programs and Sponsored M.Tech Programs. Online Spot admission for M.Tech and M.Sc programs at NIT Sikkim is scheduled for 6th September 2023. For more details, including the Information Brochure, Application Form, Important Dates, Fee Details, Certificate Format, Results, and Contact details, please visit the official M.Tech admission page: [NIT SIKKIM M.Tech Admission](https://nitsikkim.ac.in/admission/beta/)"
+    ]
+  },
+ {
+  "tag": "msc-admission",
+  "patterns": [
+    "Tell me about M.Sc. admission at NIT SIKKIM.",
+    "How can I apply for M.Sc. at NIT SIKKIM?",
+    "Provide information on M.Sc. admission at NIT SIKKIM."
+  ],
+  "responses": [
+    "NIT SIKKIM offers M.Sc. admissions through two procedures: \n1.  Institute Admission Test (IAT):  \n NIT SIKKIM conducts the Institute Admission Test (IAT) for M.Sc. admission. Applications are invited from Indian nationals for admission to the Self-finance Category of Post Graduate Programs and Sponsored M.Sc. Programs. Online Spot admission for M.Tech and M.Sc. programs at NIT Sikkim is scheduled for 6th September 2023. For more details, including the Information Brochure, Application Form, Important Dates, Fee Details, Certificate Format, Results, and Contact details, please visit the official M.Sc. admission page: [NIT SIKKIM M.Sc. Admission](https://nitsikkim.ac.in/admission/msc_admission.php) \n2.  CCMN-2023:  \n    CCMN-2023 is a common platform for candidates to apply for M.Sc./M.Sc.(Tech.) programs based on their JAM score of the year 2023. This centralized system provides a common and convenient platform for online counseling, where candidates can fill in a single online application and apply to all programs in all participating institutions. For more details and to apply, visit the official CCMN website: [CCMN-2023](https://ccmn.admissions.nic.in/) \n M.Sc. Notice PDF:  \n      You can find the M.Sc. Notice PDF [here](https://nitsikkim.ac.in/documents/admission/M%20Tech/2023/Spot%20admission%20for%20PG%20Programmes%20at%20NIT%20Sikkim.pdf)"
+  ]
+}
+,
+{
+  "tag": "msc-admission-iat",
+  "patterns": [
+    "How can I apply for M.Sc. at NIT SIKKIM through IAT?",
+    "Tell me about M.Sc. admission at NIT SIKKIM via IAT.",
+    "IAT M.Sc. admission procedure at NIT SIKKIM."
+  ],
+  "responses": [
+    "NIT SIKKIM conducts the Institute Admission Test (IAT) for M.Sc. admission. Applications are invited from Indian nationals for admission to the Self-finance Category of Post Graduate Programs and Sponsored M.Sc. Programs. Online Spot admission for M.Tech and M.Sc. programs at NIT Sikkim is scheduled for 6th September 2023. For more details, including the Information Brochure, Application Form, Important Dates, Fee Details, Certificate Format, Results, and Contact details, please visit the official M.Sc. admission page: [NIT SIKKIM M.Sc. Admission](https://nitsikkim.ac.in/admission/msc_admission.php) \n M.Sc. Notice PDF:  \n      You can find the M.Sc. Notice PDF [here](https://nitsikkim.ac.in/documents/admission/M%20Tech/2023/Spot%20admission%20for%20PG%20Programmes%20at%20NIT%20Sikkim.pdf)"
+  ]
+},
+{
+  "tag": "msc-admission-ccmn",
+  "patterns": [
+    "How can I apply for M.Sc. at NIT SIKKIM through CCMN?",
+    "Tell me about M.Sc. admission at NIT SIKKIM via CCMN.",
+    "CCMN M.Sc. admission procedure at NIT SIKKIM."
+  ],
+  "responses": [
+    "NIT SIKKIM offers M.Sc. admissions through CCMN-2023, a common platform for candidates to apply for M.Sc./M.Sc.(Tech.) programs based on their JAM score of the year 2023. This centralized system provides a common and convenient platform for online counseling, where candidates can fill in a single online application and apply to all programs in all participating institutions. For more details and to apply, visit the official CCMN website: [CCMN-2023](https://ccmn.admissions.nic.in/) \n M.Sc. Notice PDF:  \n      You can find the M.Sc. Notice PDF [here](https://nitsikkim.ac.in/documents/admission/M%20Tech/2023/Spot%20admission%20for%20PG%20Programmes%20at%20NIT%20Sikkim.pdf)"
+  ]
+},
+ {
+    "tag": "phd-admission",
+    "patterns": [
+      "Tell me about Ph.D. admission at NIT SIKKIM.",
+      "How can I apply for Ph.D. at NIT SIKKIM?",
+      "Provide information on Ph.D. admission at NIT SIKKIM."
+    ],
+    "responses": [
+      "Applications are invited ONLINE for admission to the Ph.D. program for the Academic Year 2023-2024. The Ph.D. program is available in various departments: \n  - Computer Science and Engineering (CSE) \n      - Electrical & Electronics Engineering (EEE) \n     - Electronics & Communication Engineering (ECE) \n     - Mechanical Engineering (ME) \n     - Civil Engineering (CE) \n     - Physics \n     - Chemistry \n     - Mathematics \n     - Humanities and Social Sciences (English)  \n      For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n     For detailed information, please refer to the [Ph.D. Information Brochure](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, you can check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf). \n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)."
+    ]
+  },
+  {
+    "tag": "computer-science-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Computer Science and Engineering at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Computer Science and Engineering at NIT SIKKIM?"
+    ],
+    "responses": [
+      " For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Computer Science and Engineering at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf). \n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "electrical-electronics-phd",
+    "patterns": [
+      " For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n     Tell me about Ph.D. admission in Electrical & Electronics Engineering at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Electrical & Electronics Engineering at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n     For Ph.D. admission in Electrical & Electronics Engineering at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n     To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n     Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "electronics-communication-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Electronics & Communication Engineering at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Electronics & Communication Engineering at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Electronics & Communication Engineering at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "mechanical-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Mechanical Engineering at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Mechanical Engineering at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Mechanical Engineering at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "civil-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Civil Engineering at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Civil Engineering at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Civil Engineering at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "physics-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Physics at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Physics at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Physics at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "chemistry-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Chemistry at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Chemistry at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Chemistry at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+  {
+    "tag": "mathematics-phd",
+    "patterns": [
+      "Tell me about Ph.D. admission in Mathematics at NIT SIKKIM.",
+      "How can I apply for Ph.D. in Mathematics at NIT SIKKIM?"
+    ],
+    "responses": [
+      "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Mathematics at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n      To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+    ]
+  },
+{
+  "tag": "humanities-phd",
+  "patterns": [
+    "Tell me about Ph.D. admission in Humanities at NIT SIKKIM.",
+    "How can I apply for Ph.D. in Humanities at NIT SIKKIM?"
+  ],
+  "responses": [
+    "For more details on Ph.D. admissions, you can visit the [Ph.D. Admissions page](https://nitsikkim.ac.in/admission/phd_admission.php). \n      For Ph.D. admission in Humanities and Social Sciences (English) at NIT SIKKIM, you can refer to the general Ph.D. admission information [here](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Information%20Brochure%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester.pdf).  \n    To apply, check the [Ph.D. Advertisement](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Advt_PhD%20Admission_NIT%20Sikkim_2023-24%20Odd%20Semester%20Phase%20II.pdf) and download the [Application Form](https://nitsikkim.ac.in/documents/admission/PhD/2023-2024_odd/Application%20Form%20Admission_NIT%20Sikkim_2023-2024%20Odd%20Semester%20Phase%20II.pdf).n\n      Additionally, you can find the Ph.D. notice [here](https://nitsikkim.ac.in/admission/phd_notice.php)"
+  ]
+},
+{
+  "tag": "project-associate-application",
+  "patterns": [
+    "How can I apply for the Project Associate position in SMDP C2SD?",
+    "Tell me about the application process for Project Associate in SMDP C2SD.",
+    "What are the eligibility criteria for the Project Associate role in SMDP C2SD?"
+  ],
+  "responses": [
+    "Applications are invited for the Project Associate position in 'SMDP C2SD,' sponsored by the Ministry of Electronics and Information Technology, Govt. of India. For detailed eligibility criteria and instructions, you can click [here](https://nitsikkim.ac.in/admission/svphd.php) and download the application form [here](https://nitsikkim.ac.in/admission/svphd.php) (both in Doc. and Pdf. formats). The last date for submission of the application form (ecopy) is extended till 22nd September, 2018. Please send the application to the email: skjnit@nitsikkim.ac.in."
+  ]
+},
+{
+  "tag": "smdp-c2sd",
+  "patterns": [
+    "What is SMDP C2SD?",
+    "Tell me more about the SMDP C2SD project.",
+    "Give details about the Ministry of Electronics and Information Technology's SMDP C2SD initiative."
+  ],
+  "responses": [
+    "SMDP C2SD stands for 'Special Manpower Development Program for Chips to System Design.' It is a project sponsored by the Ministry of Electronics and Information Technology, Govt. of India. The project aims to [provide more information](https://nitsikkim.ac.in/admission/svphd.php)..."
+  ]
+},
+{
+  "tag": "application-deadline-extension",
+  "patterns": [
+    "Is the application deadline for SMDP C2SD extended?",
+    "When is the last date to submit the application for SMDP C2SD?"
+  ],
+  "responses": [
+    "Yes, the last date for submission of the application form (ecopy) for the Project Associate position in SMDP C2SD is extended till 22nd September, 2018. You can find more details [here](https://nitsikkim.ac.in/admission/svphd.php)."
+  ]
+},
+{
+  "tag": "research-fellowship-info",
+  "patterns": [
+    "Tell me about the Research Fellowship at NIT SIKKIM.",
+    "What is the process for applying to the Research Fellowship program?",
+    "Give me information about the Research Fellowship opportunities."
+  ],
+  "responses": [
+    "The Research Fellowship at NIT SIKKIM provides opportunities for individuals to engage in research activities. You can find detailed information and application procedures on the [Research Fellowship page](https://nitsikkim.ac.in/admission/research_fellowship.php)."
+  ]
+},
+{
+  "tag": "jrf-position-chemistry",
+  "patterns": [
+    "Is there a Junior Research Fellow (JRF) position available in Chemistry?",
+    "Tell me about the JRF position in Chemistry at NIT SIKKIM.",
+    "What is the last date to apply for the JRF position in Chemistry?"
+  ],
+  "responses": [
+    "Yes, there is a Junior Research Fellow (JRF) position available in Chemistry at NIT SIKKIM. The advertisement for the position can be found [here](https://nitsikkim.ac.in/documents/admission/Research%20Fellow/Achintesh/JRF_SERB_Adverisement.pdf). The last date to apply is 23rd Dec 2021."
+  ]
+},
+{
+  "tag": "project-assistant-nampet-iii",
+  "patterns": [
+    "Tell me about the Temporary Post of Project Assistant under NaMPET-III Project.",
+    "Is there a Project Assistant position available under NaMPET-III Project?",
+    "Give me information about the Project Assistant position in NaMPET-III Project."
+  ],
+  "responses": [
+    "There is a Temporary Post of Project Assistant available under NaMPET-III Project at NIT SIKKIM. The advertisement for the position can be found [here](https://nitsikkim.ac.in/documents/admission/Research%20Fellow/Molay/Advertisement_NaMPET-III%20Project_November%202021.pdf). The last date to apply is 3rd December 2021."
+  ]
+},
+{
+  "tag": "cse-faculties-nit-sikkim",
+  "patterns": [
+    "Tell me about the Computer Science and Engineering (CSE) faculties at NIT Sikkim.",
+    "Who are the professors in the CSE department at NIT Sikkim?",
+    "Give me information about the CSE faculty members at NIT Sikkim."
+  ],
+  "responses": [
+    "You can find information about the Computer Science and Engineering (CSE) faculties at NIT Sikkim on the [official CSE department page](https://cse.nitsikkim.ac.in/people.php). It provides details about the professors, their research interests, and more."
+  ]
+},
+{
+  "tag": "sangram-ray",
+  "patterns": [
+    "Tell me about Dr. Sangram Ray, the Associate Professor at NIT Sikkim.",
+    "Give me information about Dr. Sangram Ray.",
+    "Who is Dr. Sangram Ray?"
+  ],
+  "responses": [
+    "Dr. Sangram Ray is Associate Professor at NIT Sikkim. You can contact him via email at sray.cse@nitsikkim.ac.in or sangram.ism@gmail.com, and by phone at +91-9635027654. His research interests include Public Key Infrastructure (PKI), Elliptic Curve Cryptography (ECC), Remote server authentication, Secure e/m-applications, Content Centric Network, Internet-of-Things (IoT), Post Quantum Cryptography, and Blockchain Technology. You can find more about him on his [profile page](https://cse.nitsikkim.ac.in/profile.php?sn=829)."
+  ]
+},
+{
+  "tag": "pratyay-kuila",
+  "patterns": [
+    "Tell me about Dr. Pratyay Kuila, the Associate Professor and Head of Department at NIT Sikkim.",
+    "Give me information about Dr. Pratyay Kuila.",
+    "Who is Dr. Pratyay Kuila?"
+  ],
+  "responses": [
+    "Dr. Pratyay Kuila is Associate Professor, Head of Department, and Dean R&C at NIT Sikkim. You can contact him via email at pratyay_kuila@nitsikkim.ac.in or by phone at +91-7479013224. His research interests include Evolutionary Algorithms, AI and Machine Learning, Quantum-Inspired Algorithm, Mobile Fog and Edge Computing, and Wireless Sensor Networks. You can find more about him on his [profile page](https://cse.nitsikkim.ac.in/people.php)."
+  ]
+},
+{
+  "tag": "sarfarajAnsari",
+  "patterns": [
+    "Tell me about Dr. Md. Sarfaraj Alam Ansari, the Assistant Professor at NIT Sikkim.",
+    "Give me information about Dr. Sarfaraj Ansari.",
+    "Who is Dr. Sarfaraj Alam Ansari?"
+  ],
+  "responses": [
+    "Dr. Md. Sarfaraj Alam Ansari is Assistant Professor at NIT Sikkim.  \n You can contact him via email at sarfaraj@nitsikkim.ac.in or by phone at +91-9332342995.  \n His research interests include Peer-to-Peer Networks, Blockchain Technology, Network Security, Software Defined Networks, Internet of Things, Cloud Computing, and Machine Learning.  \n You can find more about him on his [profile page](https://cse.nitsikkim.ac.in/profile_sn1.php?sn=1)."
+  ]
+},
+{
+  "tag": "pankajKeserwani",
+  "patterns": [
+    "Tell me about Dr. Pankaj Kumar Keserwani, the Assistant Professor at NIT Sikkim.",
+    "Give me information about Dr. Pankaj Keserwani.",
+    "Who is Dr. Pankaj Kumar Keserwani?"
+  ],
+  "responses": [
+    "Dr. Pankaj Kumar Keserwani is Assistant Professor at NIT Sikkim.  \n You can contact him via email at pankajkeserwani.cse@nitsikkim.ac.in or by phone at +91-8967067779.  \n His research interests include the Application of Optimization and Machine/Deep Learning.  \n You can find more about him on his [profile page](https://cse.nitsikkim.ac.in/profile.php?sn=43)."
+  ]
+},
+{
+  "tag": "krishna-kumar",
+  "patterns": [
+    "Tell me about Dr. Krishna Kumar, the Assistant Professor at NIT Sikkim.",
+    "Give me information about Dr. Krishna Kumar.",
+    "Who is Dr. Krishna Kumar?"
+  ],
+  "responses": [
+    "Dr. Krishna Kumar is Assistant Professor at NIT Sikkim.  \n You can contact him via email at krishnakumar@nitsikkim.ac.in or by phone at +91-8095253170.  \n His research interests include Time-Series Sequential Data Analysis, Brain and Nature Inspired Computing, AI and Machine Learning, Knowledge Based System.  \n You can find more about him on his [profile page](https://cse.nitsikkim.ac.in/profile.php?sn=827)."
+  ]
+},
+{
+  "tag": "arunangshu-pal",
+  "patterns": [
+    "Tell me about Mr. Arunangshu Pal, the Assistant Professor at NIT Sikkim.",
+    "Give me information about Mr. Arunangshu Pal.",
+    "Who is Mr. Arunangshu Pal?"
+  ],
+  "responses": [
+    "Mr. Arunangshu Pal is Assistant Professor at NIT Sikkim.  \n You can contact him via email at arunangshupal@nitsikkim.ac.in or by phone at +91-9432149897 and +91-7044029658.  \n His research interests include Mobile Ad hoc Networks, Intelligent Transportation Systems, Computer Networks, Data Structures and Algorithms, Object-Oriented Programming, Logic in Computer Science.  \n You can find more about him on his [profile page](https://cse.nitsikkim.ac.in/profile.php?sn=828)."
+  ]
+},
+{
+  "tag": "vivek-kumar",
+  "patterns": [
+    "Tell me about Mr. Vivek Kumar, the research scholar at NIT Sikkim.",
+    "Give me information about Mr. Vivek Kumar.",
+    "Who is Mr. Vivek Kumar?"
+  ],
+  "responses": [
+    "Mr. Vivek Kumar is research scholar at NIT Sikkim.  \n You can contact him via email at phcs16026@nitsikkim.ac.in or by phone at +91-9472084274.  \n His area of research includes the design of efficient and secure authentication schemes using identity-based cryptography (IBC).  \n His supervisor is Dr. Sangram Ray."
+  ]
+},
+{
+  "tag": "deepak-kumar-khandelwal",
+  "patterns": [
+    "Tell me about Mr. Deepak Kumar Khandelwal, the research scholar at NIT Sikkim.",
+    "Give me information about Mr. Deepak Kumar Khandelwal.",
+    "Who is Mr. Deepak Kumar Khandelwal?"
+  ],
+  "responses": [
+    "Mr. Deepak Kumar Khandelwal is research scholar at NIT Sikkim.  \n You can contact him via email at phcs190009@nitsikkim.ac.in or by phone at +91-8764040377.  \n His area of research includes Computer Science and Productivity.  \n His supervisor is Prof. M. C. Govil."
+  ]
+},
+{
+  "tag": "biswadip-bandyopadhyay",
+  "patterns": [
+    "Tell me about Mr. Biswadip Bandyopadhyay, the research scholar at NIT Sikkim.",
+    "Give me information about Mr. Biswadip Bandyopadhyay.",
+    "Who is Mr. Biswadip Bandyopadhyay?"
+  ],
+  "responses": [
+    "Mr. Biswadip Bandyopadhyay is research scholar at NIT Sikkim.  \n You can contact him via email at phcs210002@nitsikkim.ac.in or by phone at +91-9082866211.  \n His area of research is Task Offloading in Mobile Edge Computing.  \n His supervisors are Dr. M.C.Govil and Dr. Pratyay Kuila.  \n You can find more about him on the [researcher page](https://cse.nitsikkim.ac.in/researcher.php)."
+  ]
+},
+{
+  "tag": "santanu-ghosh",
+  "patterns": [
+    "Tell me about Mr. Santanu Ghosh, the research scholar at NIT Sikkim.",
+    "Give me information about Mr. Santanu Ghosh.",
+    "Who is Mr. Santanu Ghosh?"
+  ],
+  "responses": [
+    "Mr. Santanu Ghosh is research scholar at NIT Sikkim.  \n You can contact him via email at phcs210001@nitsikkim.ac.in or by phone at +91-9620487604.  \n His area of research is UAV assisted Mobile Edge Computing.  \n His supervisor is Dr. Pratyay Kuila.  \n You can find more about him on the [researcher page](https://cse.nitsikkim.ac.in/researcher.php)."
+  ]
+},
+{
+  "tag": "arti-bahuguna",
+  "patterns": [
+    "Tell me about Ms. Arti Bahuguna, the research scholar at NIT Sikkim.",
+    "Give me information about Ms. Arti Bahuguna.",
+    "Who is Ms. Arti Bahuguna?"
+  ],
+  "responses": [
+    "Ms. Arti Bahuguna is  research scholar at NIT Sikkim.  \n You can contact her via email at phcs220030@nitsikkim.ac.in or by phone at +91 8937001090.  \n Her area of research is Hand Gesture Recognition.  \n Her supervisors are Dr. Gopa Bhaumik and Prof. Mahesh Chandra Govil.  \n You can find more about her on the [researcher page](https://cse.nitsikkim.ac.in/researcher.php)."
+  ]
+},
+{
+  "tag": "cse",
+  "patterns": [
+    "Tell me about the research scholars at the CSE department.",
+    "Give me information about CSE department research scholars.",
+    "Who are the research scholars in the CSE department?"
+  ],
+  "responses": [
+    "The research scholars at the CSE department are involved in various areas of research. For detailed information about each research scholar, you can visit the [researcher page](https://cse.nitsikkim.ac.in/researcher.php)."
+  ]
+},
+{
+  "tag": "messMenu",
+  "patterns": ["What's on the mess menu today?", "Tell me about the mess menu", "Food for today"],
+  "responses": ["You can check the current mess menu on the college website or inquire at the mess reception for today's offerings."]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+]}
